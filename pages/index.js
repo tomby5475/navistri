@@ -3,6 +3,9 @@ import styles from '../styles/Home.module.css';
 // import Layout from '../components/layout';
 import Header from '../components/header';
 import Max from '../components/max';
+import Image from 'next/image';
+import iconStar from '../public/images/Group_34.jpg';
+
 
 export default function Home() {
   return (
@@ -11,20 +14,22 @@ export default function Home() {
       <Head>
         <title>Navistri</title>
         <link rel="icon" href="/favicon.ico" />
-        
       </Head>
       <main>
         <Header/>
         <Max/>
         <h1 className={styles.title}>
-          IGNITE <img src="../public/images/Group 34.jpg" alt="star" />YOUR POTENTIAL
+          IGNITE 
+          <Image
+            src={iconStar}
+            alt="star"
+          />
+          YOUR POTENTIAL
         </h1>
 
         <p className={styles.description}>
         NAVISTRI empowers the curious and the driven with the acumen to lead in a world of flux. Our learning experiences are designed to arm you with the insight to not just navigate but shape the future. Join us at the edge, where knowledge equals power. 
         </p>
-
-      
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
@@ -68,15 +73,15 @@ export default function Home() {
         </a>
       </footer>
 
-      <style jsx>{`
-        {/* main {
+      {/* <style jsx>{
+        main {
           padding: 5rem 0;
           flex: 1;
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center;
-        } */}
+        }
         footer {
           width: 100%;
           height: 100px;
@@ -110,9 +115,9 @@ export default function Home() {
             Courier New,
             monospace;
         }
-      `}</style>
+      }</style> */}
 
-      {/* <style jsx global>{`
+      <style jsx global>{`
         html,
         body {
           padding: 0;
@@ -133,7 +138,7 @@ export default function Home() {
         * {
           box-sizing: border-box;
         }
-      `}</style> */}
+      `}</style>
     </div>
   
   );

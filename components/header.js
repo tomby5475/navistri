@@ -9,10 +9,12 @@ export default function Header () {
                 src={logo}
                 alt="logo"
             />
-            <button>LOGIN <Image 
-                            src={arrow} 
-                            alt="arrow" 
-                            />
+            <button> 
+                LOGIN 
+                <Image 
+                    src={arrow} 
+                    alt="arrow" 
+                />
             </button>
         </div>
     )

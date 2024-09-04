@@ -1,5 +1,5 @@
 import '../styles/global.css'
-import{ Catamaran } from '@next/font/google'
+import{ Catamaran } from "next/font/google"
 
 const catamaran = Catamaran({
     subsets: ['latin'],

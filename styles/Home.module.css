@@ -23,31 +23,8 @@
   }
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
-.title {
-  margin: 0 0 1rem;
-  line-height: 1.15;
-  font-size: 3rem;
-  color: var(--title);
-}
-
-.title {
-  text-align: center;
-}
-
-.title,
-.description {
-  text-align: center;
+.logo {
+  height: 1em;
 }
 
 .login_btn_wrapper {
@@ -71,16 +48,44 @@
   position: absolute;
   top: -30px;
   right: -30px;
-  
+}
+
+.intro {
+  text-align: center;
+}
+
+.title {
+  color: var(--title);           
+  line-height: 1.15;
+  font-size: 3rem;
+  letter-spacing: 0.02em
+}
+
+.firstLine {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} 
+
+.diamond {
+           
+}
+ 
+.secondLine {
+  margin-top: 10px;
+}
+.title::after {
+  content: '';
+  display: inline-block;
+  width: 100%;
 }
 
 .description {
-  line-height: 1.5;
+  margin-top: 20px;
   font-size: 1rem;
+  line-height: 1.5;
   color: var(--textColor);
 }
 
-.logo {
-  height: 1em;
-}
+
 

@@ -1,6 +1,6 @@
 import Image from "next/image"
 import styles from '../styles/Home.module.css'
-import diamond from '../public/images/diamond.png'
+import crystal from '../public/images/crystal2.png'
 import union from '../public/images/union.png'
 
 export default function Intro () {
@@ -9,16 +9,15 @@ export default function Intro () {
             <h1 className={styles.title}>
                 <span className={styles.firstLine}>
                     IGNITE
-                    <Image
-                        src={diamond}
-                        alt="diamond"
+                    <Image className={styles.intro_crystal}
+                        src={crystal}
+                        alt="crystal"
                     />
                     YOUR
                 </span>
-                <br/>
                 <span className={styles.secondLine}>POTENTIAL</span>
             </h1>
-            <Image
+            <Image className={styles.intro_zigzag}
                 src={union}
                 alt="union"
             />

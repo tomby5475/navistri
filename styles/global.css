@@ -8,10 +8,12 @@
 
 :root{
   --backgroundColor: #00022D;
+  --backgroundColorLight: #EFF0FF;
   --textColorLight: #AFB9FA;
   --textColorDark: #222222;
   --title: #464BDC;
   --textBtnColor: #E4E5F9;
+  --btnColor: #3D43BC;
 }
 
 a {

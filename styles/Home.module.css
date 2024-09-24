@@ -87,5 +87,32 @@
   color: var(--textColorLight);
 }
 
+.tutor_about {
+  background-color: var(--backgroundColorLight);
+  border-radius: 16px;
+  padding: 1.5rem;
+}
 
+.tutor_about hr {
+  border: none;
+  border-top: 1px solid #D0D2F9;
+  margin: 1rem 0;
+}
 
+.socialBtns {
+  margin-top: 1rem;
+}
+
+.socialBtns a {
+  display: inline-block;
+  width: 6rem;
+  height: 2.6rem;
+  line-height: 2.6rem;
+  text-align: center;
+  border-radius: 100px;
+  background-color: var(--btnColor);
+  color: var(--textBtnColor);
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 1rem;
+}
